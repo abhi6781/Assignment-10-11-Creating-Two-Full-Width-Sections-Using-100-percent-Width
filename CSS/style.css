@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: arial;
+}
+
+.main {
+    width: 100%;
+    background-color: white;
+}
+
+
+.header {
+    width: 98%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo {
+    width: 8%;
+    padding: 15px 50px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav1 {
+    width: 60%;
+}
+
+.nav1 ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 ul li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.nav1 ul li a {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 400;
+}
+
+.nav2 {
+    width: 40%;
+}
+
+
+.nav2 ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.nav2 ul li {
+    padding: 10px 10px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    list-style: none;
+    border: 1px solid lightgray;
+    background: transparent;
+    color: #4e4e4e;
+    border-radius: 5px;
+}
+
+.nav2 ul li a {
+    color: black;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.nav2 ul li:first-child:hover{
+    background-color: #2699FB;
+}
+
+.nav2 ul li:first-child:hover a{
+   color: white;
+}
+
+
+.nav2 ul li:last-child{
+    background-color: #2699FB;
+    color: white;
+}
+
+.list-item2 .reach{
+    color: white;
+}
+
+.nav2 ul li:last-child:hover{
+    background-color: white;
+}
+
+.list-item2:hover .reach{
+    color: black;
+}
+
+
+ 
+
+
+.inner-row1 {
+    background-image: url("../Images/spotlight-bg.webp");
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 65px 0px;
+}
+
+.inner-row1-top {
+    width: 1200px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.inner-row1-top h1 {
+    padding: 20px 0px;
+    background-image: url('../Images/spotlight-heading-bg.svg');
+    background-repeat: no-repeat;
+    background-position: 62% 70%;
+    background-size: 13%;
+}
+
+.inner-row1-top p {
+    font-size: 19px;
+}
+
+.inner-row1-bottom {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.inner-row-bottom-item1 {
+    width: 24%;
+    float: left;
+    margin-left: 11px;
+    padding: 30px 0px;
+}
+
+.inner-row-bottom-item1 h2:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+
+
+.inner-row-bottom-item1 p {
+    margin-top: 27px;
+    font-size: 20px;
+    color: #9CB2C5;
+}
+
+.border {
+    border-right: 1px solid #0b2f4f;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.inner-row2 {
+    width: 100%;
+    padding: 110px 0;
+    box-sizing: border-box;
+}
+
+.inner-row2-left {
+    width: 53%;
+    margin-left: 10px;
+    float: left;
+}
+
+.inner-row2-left h2 {
+    font-size: 33px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.inner-row2-left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(67, 80, 91);
+    margin: 40px 0;
+}
+
+.box1 {
+    margin-bottom: 16px;
+    border: 1px solid #d0d5dd;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 23px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.box1:hover {
+    border: 1px solid lightskyblue;
+}
+
+.box1 h3 {
+    margin-left: 10px;
+}
+
+.box1 p {
+    margin: 10px;
+}
+
+.box1 a {
+    margin-left: 10px;
+    color: #2699FB;
+}
+
+.inner-row2-left button {
+    color: white;
+    background: #2699FB;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 12px 19px;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background: white;
+    border: 1px solid #2699FB;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.inner-row2-right {
+    width: 46%;
+    float: right;
+}
+
+
+.inner-row2-right .img {
+    width: 100%;
+    background-image: url(..//Images/iq-circle.webp), url(../Images/iq-dot-bg.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right;
+    background-position: 95% 95%, 5% 3%;
+}
+
+.img img {
+    width: 80%;
+    padding: 70px 0px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
